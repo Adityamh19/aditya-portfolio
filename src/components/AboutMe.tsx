@@ -16,9 +16,9 @@ export default function AboutMe() {
         transition={{ duration: 1, ease: "easeOut" }}
       >
         <div className="w-64 h-[22rem] md:w-80 md:h-[28rem] rounded-2xl overflow-hidden relative glass-premium p-1 shadow-2xl">
-          <div className="w-full h-full relative rounded-xl overflow-hidden">
+          <div className="relative w-full aspect-[3/4] md:aspect-auto md:h-full rounded-2xl overflow-hidden glass-card">
             <Image 
-              src="/ADITYA_IMAGE.jpeg" 
+              src="/aditya-portfolio/ADITYA_IMAGE.jpeg" 
               alt="Aditya M Hiremath Portrait" 
               fill
               className="object-cover hover:scale-105 transition-all duration-700 ease-in-out grayscale hover:grayscale-0"

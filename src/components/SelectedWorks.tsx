@@ -5,12 +5,12 @@ import { ArrowUpRight, Github, Play } from "lucide-react";
 import Image from "next/image";
 
 const works = [
-  { id: 1, title: "Customer Personality Analysis", github: "https://github.com/Adityamh19/clustering", live: "https://clustering01.streamlit.app/", image: "/customer_personality.png" },
-  { id: 2, title: "Liver Disease Predictor", github: "https://github.com/Adityamh19/Liver-Disease-Predictor-App", live: "https://liver-disease-predictor-app-flspwmy3igbjywmzwwxnm4.streamlit.app/", image: "/liver_disease.png" },
-  { id: 3, title: "Bank Loan Approval", github: "https://github.com/Adityamh19/Bank-Loan-Approval-Prediction", live: "https://bank-loan-approval-prediction-dndxyvbr4unmuhkaxwfcb4.streamlit.app/", image: "/bank_loan_approval.png" },
-  { id: 4, title: "Marketing Campaign Conversion", github: "https://github.com/Adityamh19/Marketing-Campaign-Conversion-Predictor", live: "https://marketing-campaign-conversion-predictor-aqyqjqmejbyqcu4dfkeauz.streamlit.app/", image: "/marketing_campaign.png" },
-  { id: 5, title: "Heart Disease Prediction", github: "https://github.com/Adityamh19/Heart-Disease-Prediction-Dataset", live: "https://heart-disease-prediction-dataset-fxthmfupnkkzy6maspegim.streamlit.app/", image: "/heart_disease.png" },
-  { id: 6, title: "Amazon Review Sentiment", github: "https://github.com/Adityamh19/Amazon-Review-Sentiment-Analysis", live: "https://amazon-review-sentiment-analysis-hdmycqhcr4ccu2koqpvskp.streamlit.app/", image: "/amazon_review.png" }
+  { id: 1, title: "Customer Personality Analysis", github: "https://github.com/Adityamh19/clustering", live: "https://clustering01.streamlit.app/", image: "/aditya-portfolio/customer_personality.png" },
+  { id: 2, title: "Liver Disease Predictor", github: "https://github.com/Adityamh19/Liver-Disease-Predictor-App", live: "https://liver-disease-predictor-app-flspwmy3igbjywmzwwxnm4.streamlit.app/", image: "/aditya-portfolio/liver_disease.png" },
+  { id: 3, title: "Bank Loan Approval", github: "https://github.com/Adityamh19/Bank-Loan-Approval-Prediction", live: "https://bank-loan-approval-prediction-dndxyvbr4unmuhkaxwfcb4.streamlit.app/", image: "/aditya-portfolio/bank_loan_approval.png" },
+  { id: 4, title: "Marketing Campaign Conversion", github: "https://github.com/Adityamh19/Marketing-Campaign-Conversion-Predictor", live: "https://marketing-campaign-conversion-predictor-aqyqjqmejbyqcu4dfkeauz.streamlit.app/", image: "/aditya-portfolio/marketing_campaign.png" },
+  { id: 5, title: "Heart Disease Prediction", github: "https://github.com/Adityamh19/Heart-Disease-Prediction-Dataset", live: "https://heart-disease-prediction-dataset-fxthmfupnkkzy6maspegim.streamlit.app/", image: "/aditya-portfolio/heart_disease.png" },
+  { id: 6, title: "Amazon Review Sentiment", github: "https://github.com/Adityamh19/Amazon-Review-Sentiment-Analysis", live: "https://amazon-review-sentiment-analysis-hdmycqhcr4ccu2koqpvskp.streamlit.app/", image: "/aditya-portfolio/amazon_review.png" }
 ];
 
 export default function SelectedWorks() {
