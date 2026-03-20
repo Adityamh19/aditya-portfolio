@@ -1,0 +1,41 @@
+Aditya M Hiremath
++918088773539 |adityamh19@gmail.com |LinkedIn |GitHub |Vijayapura, Karnataka – 586109
+SUMMARY
+Diligent and fast-learning Computer Science graduate with a growing interest in Machine Learning and Data Science ﬁelds.
+Familiar with data handling, and the fundamentals of both Git and Linux. I bring good communication skills and a
+collaborative approach to any task. Known for a strong learning mindset, adaptability, and problem-solving approach, with a
+commitment to improving through hands-on projects and internship experience.
+TECHNICAL SKILLS
+Programming Languages : Python, SQL, Tableau, Power BI, Excel
+ML & Data : Machine Learning, NLP basics, Exploratory Data Analysis, Feature Engineering, Statistical Analysis, Pandas, NumPy,
+Scikit-learn, Matplotlib, Seaborn
+Developer Tools : Git, Linux (basics), Docker (basics), Jupyter
+PROJECTS
+Liver Disease AI Predictor — Python, XGBoost, Scikit-learn, Random Forest, Streamlit 2026
+•Objective : Classify liver disease into ﬁve distinct stages using patient data.
+•Business Need : Medical facilities require rapid, reliable diagnostic screening tools to prevent delays in critical patient care.
+•Solution : Built scalable preprocessing pipelines to ﬁlter abnormal blood and urine markers, applying XGBoost to achieve 95%
+accuracy , validated with multiclass ROC-AUC.
+•Conclusion : Deployed a highly scalable diagnostic system that reduces manual analysis and accelerates patient triage.
+Customer Personality Analysis & Prediction — Python, K-Means, Random Forest, Matplotlib, Streamlit 2026
+•Objective : Classify customers into four distinct personas like VIP and At-Risk.
+•Business Need : Companies need precise targeted marketing strategies to reduce budget waste and elevate their overall
+acceptance.
+•Solution : Used K-Means for segmentation and noise reduction, then applied a Random Forest classiﬁer that achieved 89%
+accuracy to forecast campaign acceptance.
+•Conclusion : Delivered precise visual insights that optimize marketing intelligence and improve promotional targeting.
+EXPERIENCE
+AI Variant — Bangalore, India Oct 2025 – Jan 2026
+•Applied predictive modeling and machine learning to extract actionable insights for real-world business problems.
+•Collaborated with cross-functional teams to deliver impactful, data-driven solutions.
+VTUxRooman — Vijayapur, India Dec 2024 – Apr 2025
+•Developed Python ML applications, including spam classiﬁers and data preprocessing utilities.
+•Gained practical experience with Git workﬂows and foundational ML deployment pipelines.
+EDUCATION
+BLDEA’s Vachana Pitamaha Dr. P .G. Halkatti College of Engineering and Technology Vijayapur, India
+BE in CSE (Artiﬁcial Intelligence & ML), CGPA: 8.2 2021 – Present
+Roopadevi Science PU College Vijayapura, India
+PUC — Science, 79% 2020 – 2021
+CERTIFICATES
+•Python Internship Completion Certiﬁcate
+•Data Science Certiﬁcation — ExcelR
