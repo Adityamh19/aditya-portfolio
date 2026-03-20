@@ -23,7 +23,7 @@ export default function Certificates() {
         transition={{ duration: 0.8, ease: "easeOut" }}
         className="mb-16 z-10 relative"
       >
-        <h2 className="text-5xl md:text-7xl font-black tracking-tighter text-white mb-6">Credentials.</h2>
+        <h2 className="text-5xl md:text-7xl font-black tracking-tighter text-white mb-6">Certificates.</h2>
         <div className="w-16 h-[2px] bg-blue-500/50" />
       </motion.div>
       
