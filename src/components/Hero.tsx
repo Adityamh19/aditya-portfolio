@@ -52,7 +52,7 @@ export default function Hero() {
         </motion.div>
 
         {/* Massive Typography Title */}
-        <h1 className="text-6xl md:text-8xl lg:text-[8rem] font-black tracking-tighter leading-[0.9] mb-8">
+        <h1 className="text-5xl sm:text-6xl md:text-8xl lg:text-[8rem] font-black tracking-tighter leading-[0.9] mb-8">
           <motion.span 
             className="block text-gradient-premium pb-2"
             initial={{ opacity: 0, y: 30 }}
@@ -96,9 +96,8 @@ export default function Hero() {
             <ChevronRight className="w-4 h-4 relative z-10 opacity-0 -translate-x-2 transition-all group-hover:opacity-100 group-hover:translate-x-0" />
             <div className="absolute inset-0 bg-gradient-to-r from-blue-100 to-indigo-100 opacity-0 transition-opacity group-hover:opacity-100" />
           </a>
-          
           <a 
-            href="/LATEST ADITYA RESUME 2026.pdf" 
+            href="/aditya-portfolio/LATEST%20ADITYA%20RESUME%202026.pdf" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="px-8 py-4 glass-premium text-white font-medium rounded-full hover:bg-white/10 transition-all active:scale-95"

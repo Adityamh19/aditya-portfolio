@@ -8,7 +8,7 @@ import Navbar from "@/components/Navbar";
 
 export default function Home() {
   return (
-    <main className="bg-background text-foreground antialiased selection:bg-accent selection:text-white relative">
+    <main className="bg-background text-foreground antialiased selection:bg-accent selection:text-white relative overflow-x-hidden">
       <Navbar />
       
       <div id="hero"><Hero /></div>

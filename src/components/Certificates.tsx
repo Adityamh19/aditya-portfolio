@@ -4,11 +4,11 @@ import { motion } from "framer-motion";
 import { FileBadge, Download } from "lucide-react";
 
 const certificates = [
-  { name: "Data Science Certification", file: "/DATA_SCIENCE_CERTIFICATE.pdf" },
-  { name: "Aivariant Internship (6 Months)", file: "/6 months Aivariant internship certificate.pdf" },
-  { name: "DevOps Engineering Certification", file: "/New Rooman Certificate DEVOPS ORIGINAL .pdf" },
-  { name: "Technologics Global Certification", file: "/TECHNOLOGICSGLOBAL_CERTIFICATE.pdf" },
-  { name: "Wadhwani Foundation Certification", file: "/Wadhwani Foundation Certificate - 67b0c1647a4b7721e2d88b29.pdf" }
+  { name: "Data Science Certification", file: "/aditya-portfolio/DATA_SCIENCE_CERTIFICATE.pdf" },
+  { name: "Aivariant Internship (6 Months)", file: "/aditya-portfolio/6%20months%20Aivariant%20internship%20certificate.pdf" },
+  { name: "DevOps Engineering Certification", file: "/aditya-portfolio/New%20Rooman%20Certificate%20DEVOPS%20ORIGINAL%20.pdf" },
+  { name: "Technologics Global Certification", file: "/aditya-portfolio/TECHNOLOGICSGLOBAL_CERTIFICATE.pdf" },
+  { name: "Wadhwani Foundation Certification", file: "/aditya-portfolio/Wadhwani%20Foundation%20Certificate%20-%2067b0c1647a4b7721e2d88b29.pdf" }
 ];
 
 export default function Certificates() {
