@@ -5,6 +5,7 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true,
   },
+  basePath: "/aditya-portfolio",
 };
 
 export default nextConfig;
