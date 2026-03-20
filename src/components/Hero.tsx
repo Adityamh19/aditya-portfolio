@@ -36,7 +36,7 @@ export default function Hero() {
       {/* Subtle Aurora Background Overlay */}
       <div className="absolute inset-0 bg-[url('https://grainy-gradients.vercel.app/noise.svg')] opacity-20 brightness-100 contrast-150 mix-blend-overlay pointer-events-none z-0"></div>
 
-      <div className="relative z-10 max-w-5xl mx-auto px-6 text-center">
+      <div className="relative z-10 max-w-5xl mx-auto px-6 text-center pt-24 md:pt-32">
         {/* Availability Badge */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
