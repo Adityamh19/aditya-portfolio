@@ -49,7 +49,7 @@ export default function SelectedWorks() {
             </div>
 
             <div className="relative z-10 p-6 flex flex-col justify-between h-full pointer-events-none">
-              <div className="flex justify-end gap-2 opacity-0 group-hover:opacity-100 transition-opacity duration-500 pointer-events-auto translate-y-2 group-hover:translate-y-0">
+              <div className="flex justify-end gap-2 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity duration-500 pointer-events-auto translate-y-0 md:translate-y-2 md:group-hover:translate-y-0">
                 <a href={work.live} target="_blank" rel="noopener noreferrer" className="flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-blue-500/90 text-white text-xs font-bold hover:bg-blue-400 transition-colors shadow-lg backdrop-blur-md">
                   <Play className="w-3.5 h-3.5" /> Live Demo
                 </a>
@@ -58,8 +58,8 @@ export default function SelectedWorks() {
                 </a>
               </div>
               
-              <div className="mt-4 transform translate-y-4 group-hover:translate-y-0 transition-transform duration-500">
-                <p className="text-blue-400 font-mono text-xs tracking-wider mb-2 opacity-0 group-hover:opacity-100 transition-opacity delay-100 uppercase">Streamlit App</p>
+              <div className="mt-4 transform translate-y-0 md:translate-y-4 md:group-hover:translate-y-0 transition-transform duration-500">
+                <p className="text-blue-400 font-mono text-xs tracking-wider mb-2 opacity-100 md:opacity-0 md:group-hover:opacity-100 transition-opacity delay-100 uppercase">Streamlit App</p>
                 <h3 className="text-xl md:text-2xl font-bold text-white leading-tight drop-shadow-lg">{work.title}</h3>
               </div>
             </div>
