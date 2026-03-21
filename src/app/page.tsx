@@ -19,7 +19,7 @@ export default function Home() {
       <div id="contact"><Contact /></div>
       
       <footer className="py-8 text-center bg-black/40 border-t border-neutral-900">
-        <p className="text-neutral-500 text-sm font-mono">&copy; {new Date().getFullYear()} Aditya M Hiremath. All rights reserved.</p>
+        <p className="text-neutral-500 text-sm font-mono">&copy; {new Date().getFullYear()} Aditya M Hiremath.</p>
       </footer>
     </main>
   );

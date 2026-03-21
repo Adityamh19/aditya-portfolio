@@ -53,7 +53,7 @@ export default function AboutMe() {
           <p>
             Bridging the gap between complex ML models and human intuition, I ensure every technical solution provides clear, interpretable value for all stakeholders.
           </p>
-          <p className="text-neutral-500 italic">
+          <p className="text-sky-400 italic">
             "Driven by curiosity. Defined by execution."
           </p>
         </motion.div>

@@ -16,7 +16,7 @@ export default function Hero() {
 
   return (
     <section 
-      className="min-h-screen flex items-center justify-center relative overflow-hidden bg-black group"
+      className="min-h-[100dvh] flex items-center justify-center relative overflow-hidden bg-black group"
       onMouseMove={handleMouseMove}
     >
       {/* Dynamic Cursor Spotlight that follows the mouse */}
@@ -38,18 +38,19 @@ export default function Hero() {
 
       <div className="relative z-10 max-w-5xl mx-auto px-6 text-center pt-24 md:pt-32">
         {/* Availability Badge */}
-        <motion.div
+        <motion.a
+          href="#contact"
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8, ease: "easeOut" }}
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-premium text-sm font-medium text-neutral-300 mb-8 border border-white/10 hover:border-white/30 transition-colors mx-auto"
+          className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-premium text-sm font-medium text-neutral-300 mb-8 border border-white/10 hover:border-white/30 transition-colors mx-auto cursor-pointer z-20"
         >
           <span className="relative flex h-2 w-2">
             <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-blue-400 opacity-75"></span>
             <span className="relative inline-flex rounded-full h-2 w-2 bg-blue-500"></span>
           </span>
           Available for new opportunities
-        </motion.div>
+        </motion.a>
 
         {/* Massive Typography Title */}
         <h1 className="text-5xl sm:text-6xl md:text-8xl lg:text-[8rem] font-black tracking-tighter leading-[0.9] mb-8">
