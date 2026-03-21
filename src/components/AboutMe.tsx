@@ -68,40 +68,42 @@ export default function AboutMe() {
             <div className="flex-1 h-[1px] bg-gradient-to-r from-blue-500/50 to-transparent"></div>
           </div>
 
-          <div className="grid grid-cols-1 gap-4">
-            {/* Programming Languages */}
-            <div className="glass-card p-4 rounded-xl border border-white/5 hover:border-blue-500/30 transition-all duration-300 group bg-white/[0.02]">
-              <h4 className="text-blue-400 font-mono text-xs uppercase tracking-wider mb-2 group-hover:text-blue-300 transition-colors">Programming Languages</h4>
-              <div className="flex flex-wrap gap-2">
-                {['Python', 'SQL', 'Tableau', 'Power BI', 'Excel'].map(skill => (
-                  <span key={skill} className="px-3 py-1 bg-white/5 text-neutral-300 text-sm rounded-md border border-white/10 hover:bg-blue-500/10 hover:border-blue-500/30 hover:text-white transition-all cursor-default">
-                    {skill}
-                  </span>
-                ))}
+          <div className="glass-card p-5 lg:p-6 rounded-xl border border-white/5 hover:border-blue-500/30 transition-all duration-300 bg-white/[0.02]">
+            <div className="space-y-4">
+              {/* Programming Languages */}
+              <div>
+                <h4 className="text-blue-400 font-mono text-[10px] md:text-xs uppercase tracking-wider mb-2">Programming Languages</h4>
+                <div className="flex flex-wrap gap-1.5 md:gap-2">
+                  {['Python', 'SQL', 'Tableau', 'Power BI', 'Excel'].map(skill => (
+                    <span key={skill} className="px-2.5 py-1 bg-white/5 text-neutral-300 text-xs rounded-md border border-white/10 hover:bg-blue-500/10 hover:border-blue-500/30 hover:text-white transition-all cursor-default">
+                      {skill}
+                    </span>
+                  ))}
+                </div>
               </div>
-            </div>
 
-            {/* ML & Data */}
-            <div className="glass-card p-4 rounded-xl border border-white/5 hover:border-blue-500/30 transition-all duration-300 group bg-white/[0.02]">
-              <h4 className="text-blue-400 font-mono text-xs uppercase tracking-wider mb-2 group-hover:text-blue-300 transition-colors">ML & Data</h4>
-              <div className="flex flex-wrap gap-2">
-                {['Machine Learning', 'NLP (Basics)', 'EDA', 'Feature Engineering', 'Statistical Analysis', 'Pandas', 'NumPy', 'Scikit-learn', 'Matplotlib', 'Seaborn'].map(skill => (
-                  <span key={skill} className="px-2.5 py-1 bg-white/5 text-neutral-300 text-xs rounded-md border border-white/10 hover:bg-blue-500/10 hover:border-blue-500/30 hover:text-white transition-all cursor-default">
-                    {skill}
-                  </span>
-                ))}
+              {/* ML & Data */}
+              <div>
+                <h4 className="text-blue-400 font-mono text-[10px] md:text-xs uppercase tracking-wider mb-2">ML & Data</h4>
+                <div className="flex flex-wrap gap-1.5 md:gap-2">
+                  {['Machine Learning', 'NLP (Basics)', 'EDA', 'Feature Engineering', 'Statistical Analysis', 'Pandas', 'NumPy', 'Scikit-learn', 'Matplotlib', 'Seaborn'].map(skill => (
+                    <span key={skill} className="px-2.5 py-1 bg-white/5 text-neutral-300 text-xs rounded-md border border-white/10 hover:bg-blue-500/10 hover:border-blue-500/30 hover:text-white transition-all cursor-default">
+                      {skill}
+                    </span>
+                  ))}
+                </div>
               </div>
-            </div>
 
-            {/* Developer Tools */}
-            <div className="glass-card p-4 rounded-xl border border-white/5 hover:border-blue-500/30 transition-all duration-300 group bg-white/[0.02]">
-              <h4 className="text-blue-400 font-mono text-xs uppercase tracking-wider mb-2 group-hover:text-blue-300 transition-colors">Developer Tools</h4>
-              <div className="flex flex-wrap gap-2">
-                {['Git', 'Linux (Basics)', 'Docker (Basics)', 'Jupyter'].map(skill => (
-                  <span key={skill} className="px-3 py-1 bg-white/5 text-neutral-300 text-sm rounded-md border border-white/10 hover:bg-blue-500/10 hover:border-blue-500/30 hover:text-white transition-all cursor-default">
-                    {skill}
-                  </span>
-                ))}
+              {/* Developer Tools */}
+              <div>
+                <h4 className="text-blue-400 font-mono text-[10px] md:text-xs uppercase tracking-wider mb-2">Developer Tools</h4>
+                <div className="flex flex-wrap gap-1.5 md:gap-2">
+                  {['Git', 'Linux (Basics)', 'Docker (Basics)', 'Jupyter'].map(skill => (
+                    <span key={skill} className="px-2.5 py-1 bg-white/5 text-neutral-300 text-xs rounded-md border border-white/10 hover:bg-blue-500/10 hover:border-blue-500/30 hover:text-white transition-all cursor-default">
+                      {skill}
+                    </span>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
