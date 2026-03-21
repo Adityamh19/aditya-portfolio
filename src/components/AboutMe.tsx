@@ -9,7 +9,7 @@ export default function AboutMe() {
       <div className="absolute top-1/2 right-1/4 w-[600px] h-[600px] bg-blue-500/5 blur-[150px] rounded-full pointer-events-none" />
       
       <motion.div 
-        className="flex-1 w-full mb-12 md:mb-0 flex justify-center md:justify-start z-10"
+        className="flex-1 w-full mb-12 md:mb-0 flex justify-center items-center z-10"
         initial={{ opacity: 0, x: -50 }}
         whileInView={{ opacity: 1, x: 0 }}
         viewport={{ once: true }}
