@@ -116,7 +116,7 @@ export default function Hero() {
               <Github className="w-6 h-6" />
             </a>
             <a 
-              href="https://www.linkedin.com/in/aditya-hiremath-320063375/" 
+              href="https://www.linkedin.com/in/aditya-m-hiremath-320063375/" 
               target="_blank" 
               rel="noopener noreferrer" 
               className="p-3 rounded-full hover:bg-white/5 text-neutral-400 hover:text-white transition-all active:scale-95"

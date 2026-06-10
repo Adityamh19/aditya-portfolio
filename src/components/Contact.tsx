@@ -1,9 +1,19 @@
 "use client";
 
+import { useState } from "react";
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { Github, Linkedin, Mail, Check } from "lucide-react";
 
 export default function Contact() {
+  const [copied, setCopied] = useState(false);
+
+  const handleEmailClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
+    // Attempt to copy email to clipboard
+    navigator.clipboard.writeText("adityamh19@gmail.com");
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
+  };
+
   return (
     <section className="min-h-screen flex flex-col justify-center py-24 px-8 lg:px-24 xl:px-32 bg-[#050505] relative border-t border-white/[0.05] overflow-hidden">
       <div className="absolute inset-0 bg-[radial-gradient(circle_at_bottom_left,rgba(59,130,246,0.08),transparent_60%)] pointer-events-none" />
@@ -24,7 +34,7 @@ export default function Contact() {
       
       <div className="flex flex-col md:flex-row items-center gap-6 relative z-10">
         <motion.a
-          href="https://www.linkedin.com/in/aditya-hiremath-320063375/"
+          href="https://www.linkedin.com/in/aditya-m-hiremath-320063375/"
           target="_blank"
           rel="noopener noreferrer"
           initial={{ opacity: 0, y: 20 }}
@@ -57,14 +67,24 @@ export default function Contact() {
         
         <motion.a
           href="mailto:adityamh19@gmail.com"
+          onClick={handleEmailClick}
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, delay: 0.3, ease: "easeOut" }}
-          className="flex items-center justify-center gap-4 bg-white text-black px-8 py-5 rounded-2xl w-full md:w-auto hover:bg-neutral-200 transition-colors shadow-[0_10px_30px_rgba(255,255,255,0.1)] hover:-translate-y-1 transform duration-300"
+          className="flex items-center justify-center gap-4 bg-white text-black px-8 py-5 rounded-2xl w-full md:w-auto hover:bg-neutral-200 transition-colors shadow-[0_10px_30px_rgba(255,255,255,0.1)] hover:-translate-y-1 transform duration-300 cursor-pointer"
         >
-          <Mail className="w-5 h-5" />
-          <span className="text-lg font-bold tracking-wide">Email Me</span>
+          {copied ? (
+            <>
+              <Check className="w-5 h-5 text-green-600" />
+              <span className="text-lg font-bold tracking-wide">Copied!</span>
+            </>
+          ) : (
+            <>
+              <Mail className="w-5 h-5" />
+              <span className="text-lg font-bold tracking-wide">Email Me</span>
+            </>
+          )}
         </motion.a>
       </div>
     </section>
